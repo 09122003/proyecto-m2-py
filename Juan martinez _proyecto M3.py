@@ -29,8 +29,8 @@ def graficar_histograma(contenedores):
     plt.show()
 
 # Parámetros de la simulación
-num_bolitas = 1000  # Número de bolitas a simular
-num_baches = 10     # Número de baches en la máquina de Galton
+num_bolitas = 3000  # Número de bolitas a simular
+num_baches = 12     # Número de baches en la máquina de Galton
 
 # Ejecutar la simulación
 contenedores = simulacion_galton(num_bolitas, num_baches)
